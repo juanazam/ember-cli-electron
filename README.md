@@ -1,6 +1,12 @@
-# Ember-cli-electron
+# ember-cli-electron
 
-This README outlines the details of collaborating on this Ember addon.
+This addon simplfies how to embed an ember-cli application into an
+electron application. It will also provide simple ways to use system
+components within the ember app.
+
+This project is based on:
+
+https://github.com/usecanvas/ember-electron (Thanks!!)
 
 ## Installation
 
@@ -10,13 +16,17 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Running
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+  * run `ELECTRON_ENV=development ember server -p 5000`
+  * run `ELECTRON_ENV=development electron .`
+
+## Notes
+
+* `baseURL` in config must be removed.
+* `locationType` in config must be "hash".
 
 ## Running Tests
 
 * `ember test`
-* `ember test --server`
 
 ## Building
 
