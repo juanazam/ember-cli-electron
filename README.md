@@ -16,8 +16,7 @@ https://github.com/usecanvas/ember-electron (Thanks!!)
 
 ## Running
 
-  * run `ELECTRON_ENV=development ember server -p 5000`
-  * run `ELECTRON_ENV=development electron .`
+  * run `ELECTRON_ENV=development ember start-app`
 
 ## Notes
 
